@@ -1,0 +1,15 @@
+/* Columns */
+@media(max-width: 1200px){
+    .page{width:800px;}
+}
+@media(max-width: 901px) {
+    .page{ width;750px;}
+}
+@media(max-width: 751px) {
+    .page{width:429px;}
+    img.logotipo,.logo.col-md-4 {margin:0 auto;float: none;}
+}
+@media(max-width: 429px){
+    .page{width:100%;}
+}
+/* ======================================================================================= */
