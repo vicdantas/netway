@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NETWAY - Desenvolvimento pra WEB</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="style/css/responsive.css"/>
+    <link rel="stylesheet" href="style/font-awesome/css/font-awesome.min.css">
+    <link href="style/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="style/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="style/images/favicon.ico" type="image/x-icon">
+    <!-- Comentário adicionado pra teste de feature -->
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+            });
+        });
+    </script>
+</head>
+<body>
+<a id="top"></a>
+    <div class="wrapper">
+        <div class="wrap b-blue">
+            <div class="page">
+                <div class="header row">
+                    <div class="logo col-md-4">
+                        <a href="index.html">
+                            <img class="logotipo" src="style/images/logo-1-m.png" alt="NETWAY - Desenvolvimento pra WEB"/>
+                        </a>
+                    </div>
+                    <div class="top-links col-md-8 row">
+                        <div class="col-md-9 right">
+                            <div class="top-links">
+                                <ul>
+                                    <a href="#missao" class="li-radius scroll">
+                                        <span>
+                                            <li><i class="fa fa-flag"></i> MISSÃO</li>
+                                        </span>
+                                    </a>
+                                    <a href="#equipe" class="li-radius scroll">
+                                        <span>
+                                            <li><i class="fa fa-users"></i> EQUIPE</li>
+                                        </span>
+                                    </a>
+                                    <a href="#localizacao" class="li-radius scroll">
+                                        <span>
+                                            <li><i class="fa fa-map-marker"></i> LOCALIZAÇÃO</li>
+                                        </span>
+                                    </a>
+                                    <a href="#contato" class="li-radius scroll">
+                                        <span>
+                                            <li><i class="fa fa-comments-o"></i> CONTATO</li>
+                                        </span>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap b-photo">
+
+        </div>
+        <div class="wrap b-white" id="missao">
+            <div class="page">
+                <h2>MISSÃO</h2>
+                <span class="">
+                <i class="fa fa-quote-left"></i>
+                    Para não ficar muito cansativo vou agora ensinar a fazer um
+                    belo miojo, ferva trezentos mls de água em uma panela, quando
+                    estiver fervendo coloque o miojo, espere cozinhar por três minutos,
+                    retire o miojo do fogão, misture bem e sirva.
+                    <i class="fa fa-quote-right"></i>
+                </span>
+                <span class="clear d-block"><a href="">QUEM SOMOS</a> </span>
+            </div>
+        </div>
+        <div class="wrap b-white-blue" id="equipe">
+            <div class="page">
+
+            </div>
+        </div>
+        <div class="wrap b-map" id="localizacao">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.09818215328!2d-46.69427600000001!3d-23.564916999999973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57a148af42b9%3A0xcc4fddda281c72a1!2sFaria+Lima!5e0!3m2!1spt-BR!2sbr!4v1408423986970" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+        </div>
+        <div class="wrap b-gray" id="contato">
+            <div class="page row">
+                <div class="col-md-4">
+                    <img src="style/images/logo-1-white.png" class="logo logo-footer"/>
+                </div>
+            </div>
+        </div>
+    </div>
+<a href="#top" id="voltarTopo" class="scroll"  title="Voltar para o topo">Voltar para o topo</a>
+</body>
+</html>
